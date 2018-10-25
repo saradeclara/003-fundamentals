@@ -1,4 +1,4 @@
-const books = [
+let books = [
     {
         title: "Don't Make Me Think",
         author: "Steve Krug",

@@ -1,7 +1,7 @@
 const library = require('../app/library');
 
 test('Check we have all books and stocked correctly', () => {
-  const expectedBooksInLibrary = [{
+  let expectedBooksInLibrary = [{
     title: "Don't Make Me Think",
     author: "Steve Krug",
     available: true,
