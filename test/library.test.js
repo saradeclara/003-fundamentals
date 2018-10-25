@@ -1,6 +1,6 @@
 const library = require('../app/library');
 
-test('Check we have all books', () => {
+test('Check we have all books and stocked correctly', () => {
   const expectedBooksInLibrary = [{
 
   }];
