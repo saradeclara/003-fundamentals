@@ -77,6 +77,12 @@ Complete the available books function - it should return a list of books that ar
 
 # Written questions
 
-TBC
+Using the books as a reference
+
+1) If a book is an object, what is its _encapsulated data_?
+
+2) If the library was an object, what procedures did we provide for working with it?
+
+
 
 
