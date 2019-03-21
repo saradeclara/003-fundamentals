@@ -1,11 +1,16 @@
 const Library = require("../app/library");
+const Book = require("../app/book");
+
+const book1 = new Book('Don\'t Make Me Think', 'Steve Krug', 123);
+const book2 = new Book('Site Reliability Engineering', 'Niall Richard Murphy', 456);
+const book3 = new Book('Fantastic Mr Fox', 'Roald Dahl', 789);
 
 test("Check that a library can be instantiated with some books", () => {
   const library = new Library([
-    // Add some books here
+    book1, book2, book3
   ]);
   expect(library.books).toEqual([
-    // How should the books look?
+    book1, book2, book3
   ]);
 });
 
